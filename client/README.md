@@ -92,3 +92,13 @@ const Layout = () => {
 `import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';`
 
     app.scss
+
+Component
+    Slider
+        Slider.jsx
+        Slider.scss
+
+
+Data [
+    
+]
