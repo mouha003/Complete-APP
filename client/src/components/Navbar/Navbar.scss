@@ -5,6 +5,7 @@
 
 }
 
+
 .wrapper {
     display: flex;
     padding: 10px 30px;
@@ -24,8 +25,10 @@
     }
 
     .center{
-        font-size: 30px;
-        letter-spacing: 1.5px;
+        .logoImg{
+            height: 90px;
+            width: 109px;
+        }
     }
 
     .right{

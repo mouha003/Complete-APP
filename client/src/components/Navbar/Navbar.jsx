@@ -34,7 +34,9 @@ const Navbar = () => {
           </div>
         </div>
         <div className='center'>
-          <Link className='link' to="/">Yours Truly Fashion </Link>
+          <Link className='link' to="/">
+            <img className='logoImg' src={"img/yt_logo.png"} alt="" />
+          </Link>
         </div>
         <div className='right'>
           <div className='item'>
