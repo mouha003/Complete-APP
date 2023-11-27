@@ -15,3 +15,20 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ### `npm add react-router-dom`
+
+
+Create Router Browser
+### Routes
+
+"""import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+} from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <span>Home</span>
+  }
+])"""
