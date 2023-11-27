@@ -32,3 +32,17 @@ const router = createBrowserRouter([
     element: <span>Home</span>
   }
 ])"""
+
+
+
+2. ### Create Pages
+
+src > 
+    pages
+
+            Home
+                Home.jsx
+            Product
+                Product.jsx
+            Products
+                Products.jsx
