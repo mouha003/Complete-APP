@@ -35,7 +35,7 @@ const router = createBrowserRouter([
 
 
 
-2. ### Create Pages
+### 2. Create Pages
 
 src > 
     pages
@@ -46,3 +46,49 @@ src >
                 Product.jsx
             Products
                 Products.jsx
+
+### 3. Create Navbar and Footer
+
+1. Create Component Folder
+    src
+        components
+            Footer
+                Footer.jsx
+            Navbar
+                Navbar.jsx
+
+
+2. use Outlet Component (represent different pages)
+
+"
+const Layout = () => {
+  return (
+    <div className="app">
+        <Navbar />
+        <Outlet />
+        <Footer />
+    </div>
+  )
+}"
+
+"
+ path: "/",
+    element: <Layout />,
+    children: [
+      {
+        path:"/",
+        element: <Home />
+      },
+"
+### 3. Create Navbar
+
+`2. npm add sass`
+`3. npm install @mui/material @emotion/react @emotion/styled`
+`4. npm add @mui/icons-material`
+`import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';`
+`import SearchIcon from '@mui/icons-material/Search';`
+`import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';`
+`import FavoriteBorderOutlinedIcon  from '@mui/icons-material/FavoriteBorderOutlined';`
+`import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';`
+
+    app.scss
