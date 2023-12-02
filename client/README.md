@@ -117,3 +117,7 @@ components
     Categories
         Categories.jsx
         Categories.scss
+
+    Subscribe
+        Subscribe.jsx
+        Subscribe.scss
