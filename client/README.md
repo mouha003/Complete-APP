@@ -100,5 +100,20 @@ Component
 
 
 Data [
-    
+
 ]
+
+
+### Featured Products
+
+components 
+    FeaturedProducts
+        FeaturedProducts.jsx
+        FeaturedProducts.scss
+    Card
+        Card.jsx
+        Card.scss
+    
+    Categories
+        Categories.jsx
+        Categories.scss
