@@ -124,3 +124,7 @@ components
     List
         List.jsx
         List.scss
+    Cart
+        Cart.jsx
+        Cart.scss
+    
