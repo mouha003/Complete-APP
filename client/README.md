@@ -145,4 +145,9 @@ src
         ` npm add react-redux `
 
 
+### Redux Persist
+
+
+
+
     
