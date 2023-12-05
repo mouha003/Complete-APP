@@ -127,4 +127,22 @@ components
     Cart
         Cart.jsx
         Cart.scss
+
+src
+    .env
+        REACT_APP_API_URL
+        REACT_APP_API_TOKEN
+        <!-- Very Import to have REACT_APP as prefrix name -->
+
+        http://localhost:1337/uploads/Classic_White_CAP_asdge5trtydfv_e72e463d1b.jpg
+
+    redux
+        cartReducer.js
+        store.js (store cart details)
+
+
+        ` npm install @reduxjs/toolkit `
+        ` npm add react-redux `
+
+
     
